@@ -1,0 +1,50 @@
+<idea-plugin icon="/pluginIcon.svg">
+
+    <id>org.samseptiano.demoplugin</id>
+
+    <name>Skeleton Clean Architecture Android</name>
+
+    <vendor url="https://samseptiano.github.io">
+        Samuel Septiano
+    </vendor>
+
+    <idea-version since-build="251"/>
+
+    <description><![CDATA[
+        <h2>Android Skeleton Clean Architecture Generator</h2>
+
+        <p>This plugin helps Android developers quickly scaffold a Clean Architecture skeleton in Kotlin.</p>
+
+        <h3>Generated Components</h3>
+        <ul>
+            <li>ViewModel</li>
+            <li>UseCase</li>
+            <li>Repository</li>
+            <li>Retrofit API</li>
+            <li>Room Database</li>
+        </ul>
+
+        <h3>How to Use</h3>
+        <p>
+        Open:<br/>
+        <strong>Tools → Generate Skeleton Clean Architecture</strong>
+        </p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>org.jetbrains.kotlin</depends>
+
+    <actions>
+        <action
+                id="org.samseptiano.demoplugin.GenerateCleanArchAction"
+                class="org.samseptiano.demoplugin.GenerateCleanArchAction"
+                text="Generate Skeleton Clean Architecture"
+                description="Generate Android Clean Architecture skeleton">
+
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+
+        </action>
+    </actions>
+
+</idea-plugin>
