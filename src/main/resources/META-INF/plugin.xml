@@ -20,8 +20,7 @@
             <li>ViewModel</li>
             <li>UseCase</li>
             <li>Repository</li>
-            <li>Retrofit API</li>
-            <li>Room Database</li>
+            <li>Retrofit</li>
         </ul>
 
         <h3>How to Use</h3>
@@ -40,7 +39,7 @@
                 id="org.samseptiano.demoplugin.GenerateCleanArchAction"
                 class="org.samseptiano.demoplugin.GenerateCleanArchAction"
                 text="Generate Skeleton Clean Architecture"
-                description="Generate Android Clean Architecture skeleton">
+                description="Generate Android Clean Architecture Skeleton">
 
             <add-to-group group-id="ToolsMenu" anchor="last"/>
 
